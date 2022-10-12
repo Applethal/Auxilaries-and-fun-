@@ -13,6 +13,5 @@ def functionfactorial(x):
     return factorial 
 
 
-factorial = int(input())
-
+factorial(int(input()))
 print("factorial of your number is",factorial)
