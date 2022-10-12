@@ -16,5 +16,5 @@ I liked how this exercise tested my limited algorithm building skills.
 This is where I learned about reccursion by inspecting a friend's code, it was fun. 
 I wish I could build my own function but I had to borrow the formula from Wikipedia and it.
 
-#13/10/2022
+# 13/10/2022
 I updated the codes to include user input functions. Thanks anas.
