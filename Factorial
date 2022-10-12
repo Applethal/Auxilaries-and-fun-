@@ -13,6 +13,6 @@ def functionfactorial(x):
     return factorial 
 
 
-factorial = functionfactorial(10)
+factorial = int(input())
 
 print("factorial of your number is",factorial)
