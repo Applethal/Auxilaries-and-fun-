@@ -10,4 +10,4 @@ def function_even(x):
     return y
 
 
-function_even(1)
+function_even(int(input()))
