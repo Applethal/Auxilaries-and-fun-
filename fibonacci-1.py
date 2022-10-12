@@ -7,5 +7,5 @@ def Fibonacci(x):
         return 1
 
 
-y = Fibonacci(3)
+y = Fibonacci(int(input()))
 print(y)
