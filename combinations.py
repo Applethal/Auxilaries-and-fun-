@@ -1,6 +1,3 @@
-from ast import IsNot
-
-
 def function_factorial(x):
     if x == 0:
         return 1
@@ -28,6 +25,9 @@ def function_NcR(x, y):
     return NcR
 
 
-Combinations = function_NcR(50, 20)
+x, y = input().split(" ")
+print()
+
+Combinations = function_NcR(int(x), int(y))
 if Combinations is not None:
     print("the number of combinations is", Combinations)
