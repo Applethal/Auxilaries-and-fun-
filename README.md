@@ -17,4 +17,4 @@ This is where I learned about reccursion by inspecting a friend's code, it was f
 I wish I could build my own function but I had to borrow the formula from Wikipedia and use it.
 
 # 13/10/2022
-I updated the codes to include user input functions. Thanks anas.
+I updated the codes to include user input functions. 
