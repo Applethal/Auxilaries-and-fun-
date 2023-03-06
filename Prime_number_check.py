@@ -1,4 +1,4 @@
-n = int(input("Enter the number to be checked."))
+#n = int(input("Enter the number to be checked."))
 
 
 def Prime_check(n):
