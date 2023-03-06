@@ -18,3 +18,7 @@ I wish I could build my own function but I had to borrow the formula from Wikipe
 
 # 13/10/2022
 I updated the codes to include user input functions. 
+
+# 06/03/2023
+
+New py script that checks the propriety of a number and tells if its a prime number or not.
