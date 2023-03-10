@@ -7,10 +7,10 @@ while Limit > 0:
     Elements.append(Element)
     Limit -= 1
 
-for x in Elements:
-    for y in Elements:
-        if x != y:
-            Combinations.append((x, y))
+for a in Elements:
+    for b in Elements:
+        if a != b:
+            Combinations.append((a, b))
 
 for i in range(len(Combinations)):
     Sets[i] = Combinations[i]
