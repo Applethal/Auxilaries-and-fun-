@@ -26,3 +26,7 @@ New py script that checks the propriety of a number and tells if its a prime num
 # Sum of all the numbers from 1 to N (08/03/2023)
 
 Took a minute to practice recursion. Added a code to test my logic, that sums up all the non negative integers starting from 1 until a number N. I ran into some logical issues here and there but I am glad that I could manage to finish 90% of it without any external help. Originally I made the mistake to call the function twice at the end. Minutes later after writing this exact paragraph after dealing with a burning curiosity concerning whether I could achieve the same results without recursion, I spent exactly 3 minutes to reproduce the same thing without recursion and I did it. I am super happy!
+
+# Combinations (10/03/2023)
+
+After trying so hard for more than 4 weeks to come up with an idea on how to generate all the possible permutations and insert them in a dictionary, I somehow thought about turning the elements set into 2 dimensions, and that is how I somehow found out about how to generate all the possible combinations instead of permutations. But then what if I wanted to generate the possible combinations subject to $N$ number of outcoms instead ? a recusion has to be executed, and that is my next goal for this small script.
