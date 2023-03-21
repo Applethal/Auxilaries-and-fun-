@@ -30,3 +30,7 @@ Took a minute to practice recursion. Added a code to test my logic, that sums up
 # Combinations (10/03/2023)
 
 After trying so hard for more than 4 weeks to come up with an idea on how to generate all the possible permutations and insert them in a dictionary, I somehow thought about turning the elements set into 2 dimensions, and that is how I somehow found out about how to generate all the possible combinations instead of permutations. But then what if I wanted to generate the possible combinations subject to $N$ number of outcoms instead ? a recusion has to be executed, and that is my next goal for this small script.
+
+# Mutation (21/03/2023)
+
+New python code that allows users to swap an arbitrary element within the set with anything that they wish. This one is subject to lots of updates that I wish to include later. I plan to incorporate the famous mutation algorithms that I did learn by inspecting some combinatrics books. That was fun!
