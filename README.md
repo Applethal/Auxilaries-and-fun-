@@ -35,6 +35,7 @@ After trying so hard for more than 4 weeks to come up with an idea on how to gen
 
 New python code that allows users to swap an arbitrary element within the set with anything that they wish. This one is subject to lots of updates that I wish to include later. I plan to incorporate the famous mutation algorithms that I did learn by inspecting some combinatrics books. That was fun!
 
-# One point crossover (27/03/2023)
+# K-point crossover // Genetic algorithms (27/03/2023)
 
 Given a set of parents, provided you did not import them and that you wish to add them within a dictionary, I made a function that performs a one point crossover between 2 parents and produces 2 children containing the mixed genetics of the said parents. To do: I need to tinker a way in order to create a function that provides the possibility to create children containing more mixing, in other words: be able to implement a k-point crossover.
+Update: Updated the code, making it so that multiple points within the crossover process can be performed, it would be best to input the cuts in a croissant order, I still did not tinker a way to accept arbitrary inputs. 
