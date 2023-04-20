@@ -39,3 +39,8 @@ New python code that allows users to swap an arbitrary element within the set wi
 
 Given a set of parents, provided you did not import them and that you wish to add them within a dictionary, I made a function that performs a one point crossover between 2 parents and produces 2 children containing the mixed genetics of the said parents. To do: I need to tinker a way in order to create a function that provides the possibility to create children containing more mixing, in other words: be able to implement a k-point crossover.
 Update: Updated the code, making it so that multiple points within the crossover process can be performed, it would be best to input the cuts in a croissant order, I still did not tinker a way to accept arbitrary inputs. 
+
+
+# Matrices (20/04/2023)
+
+I went through a day of burnout and decided to satisfy myself by doing something I haven't done yet before. Using a python script I just made, you may now create a matrix. Now I just need to learn more about these and I might consider adding some functions to add or multiply vectors.
