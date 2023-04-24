@@ -34,9 +34,9 @@ class matrix:
     def display_column(self):
         m = int(input("Choose which column you wish to display in your matrix"))
         column = []
-        m -= 1
+        
         for  i in range(len(self.matrix)):
-            number = self.matrix[i][m]
+            number = self.matrix[i][m-1]
             column.append(number)
         print(column)
     
@@ -49,16 +49,23 @@ class matrix:
             for i in range(len(self.matrix)):
                 number = self.matrix[i][j]
                 columns.append(number)
-    
-            rowss = []
-            for i in range(len(self.matrix)):
-                new_number = 0
-                for k in range(len(self.matrix[0])):
-                    new_number += self.matrix[i][k] * columns[k]
-                rowss.append(new_number)
-            matrix_m.append(rowss)
-        for l in matrix_m:
-            print(l)
+            
+            if len(columns) != len(self.matrix[0]):
+                
+                return print("Sorry, the multiplication cannot be conducted.")
+            
+            else:
+                rowss = []
+                for i in range(len(self.matrix)):
+                    new_number = 0
+                    for k in range(len(self.matrix[0])):
+                        new_number += self.matrix[i][k] * columns[k]
+                    rowss.append(new_number)
+                matrix_m.append(rowss)
+        
+        for row in matrix_m:
+            print(row)
+        return matrix_m
 
 
        
