@@ -44,4 +44,5 @@ Update: Updated the code, making it so that multiple points within the crossover
 # Matrices (20/04/2023)
 
 I went through a day of burnout and decided to satisfy myself by doing something I haven't done yet before. Using a python script I just made, you may now create a matrix. Now I just need to learn more about these and I might consider adding some functions to add or multiply vectors.
-Update: 24/04/2023;;; I did recode everything in an object oriented fashion, I still need to edit the part where I multiply a matrix with another, it functions not!
+Update: 24/04/2023;;; I did recode everything in an object oriented fashion, I still need to edit the part where I multiply a matrix with another, it functions not! \\
+Update 2: I managed to multiply the matrix by itself.
