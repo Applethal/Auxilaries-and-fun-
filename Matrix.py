@@ -62,10 +62,17 @@ class matrix:
                         new_number += self.matrix[i][k] * columns[k]
                     rowss.append(new_number)
                 matrix_m.append(rowss)
+        Matrix_m = []
+        for row in range(len(matrix_m[0])):
+            rowsss = []
+            for column in range(len(matrix_m[row])):
+                number = matrix_m[column][row]
+                rowsss.append(number)
+            Matrix_m.append(rowsss)
         
-        for row in matrix_m:
-            print(row)
-        return matrix_m
+        for each_row in Matrix_m:
+            print(each_row)
+        return Matrix_m
 
 
        
